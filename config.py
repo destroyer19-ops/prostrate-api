@@ -10,6 +10,6 @@ os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 
 app = Flask(__name__)
 CORS(app)
-x = "./model/MobileNet_eye_diagnosis.keras"
+x = "./MobileNet_prostrate_diagnosis.keras"
 # x = "./model/ensemble_model.keras"
 loaded_model = load_model(x)
